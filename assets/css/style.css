@@ -2290,8 +2290,8 @@ section {
 	 height: 100%;
 }
  .step-list__item .body {
-	 font-size: 12px;
-	 line-height: 18px;
+	 font-size: 16px;
+	 line-height: 22px;
 	 font-weight: 300;
 }
  .step-list__item .content {
