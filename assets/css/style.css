@@ -214,8 +214,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 20px;
+  top: 60px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -225,7 +225,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
-  margin-top: 40px;
 }
 
 .mobile-nav-toggle i {
