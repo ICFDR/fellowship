@@ -9,7 +9,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/icfdr/fellowship)
 
 ## About
-Informative website for [ICFDR](http://icfdr.org/)'s Fellowship Initiative.
+Informative website for [iCFDR](http://icfdr.org/)'s Fellowship Initiative.
 
 ### Contributors
 [pagalprogrammer](https://pagalprogrammer.dev) | [Nayem](https://github.com/akhtar016) | [Riyan](https://github.com/riyandharne-123)
