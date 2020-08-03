@@ -2268,12 +2268,13 @@ section {
 }
  .step-list__item {
 	 counter-increment: step-counter;
-	 position: relative;
+   position: relative;
 }
  .step-list__item:before {
 	 content: counter(step-counter);
 	 font-weight: 300;
-	 color: #d8d8d8;
+   color: #d8d8d8;
+   visibility: hidden;
 }
  .step-list__item h2 {
 	 font-size: 24px;
@@ -2479,3 +2480,8 @@ section {
 
 /* Selection Process CSS Ends  */
  
+
+  hr {
+    border: none;
+    border-top: 1px solid white;
+}
