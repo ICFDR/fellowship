@@ -117,6 +117,19 @@
     return false;
   });
 
+
+  // new items 
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.social-icon').fadeIn('slow');
+    } else {
+      $('.social-icon').fadeOut('slow');
+    }
+  });
+
+ 
+
   // Porfolio isotope and filter
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
