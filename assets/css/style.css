@@ -68,17 +68,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 3px;
   bottom: 15px;
-  background: #1bbd36;
+  background: grey;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
 
-.social-icon:hover {
+/* .social-icon:hover {
   color: #fff;
-  background: #2ae149;
+  background: grey;
   transition: 0.3s ease-in-out;
-}
+} */
 
 .social-icon i {
   font-size: 24px;
@@ -107,6 +107,30 @@ h1, h2, h3, h4, h5, h6 {
   right: 229px;
 }
 
+.social-icon-fb:hover {
+  background: #4267b2;
+  color: white;
+}
+
+.social-icon-linkedin:hover {
+  background: #0077B7;
+  color: white;
+}
+
+.social-icon-youtube:hover {
+  background: #FF0000;
+  color: white;
+}
+
+.social-icon-twitter:hover {
+  background: #1DA1F2;
+  color: white;
+}
+
+.social-icon-instagram:hover {
+  background: #D92A85;
+  color: white;
+}
 
 
 /*--------------------------------------------------------------
@@ -307,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a {
-  display: block;
+  display: inline-block;
   position: relative;
   color: #111;
   padding: 10px 20px;
@@ -369,6 +393,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+}
+
+#donate-nav-item:hover {
+  color: white;
 }
 
 /*--------------------------------------------------------------
