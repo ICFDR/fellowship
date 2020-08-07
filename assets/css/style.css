@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 3px;
   bottom: 15px;
-
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -86,7 +85,7 @@ a:hover{
   left: 8px;
 }
 
-.twitter:hover {
+/* .twitter:hover {
 color: white;
 }
 .youtube:hover {
@@ -100,35 +99,60 @@ color: white;
       }
       .instagram:hover {
         color: white;
+        } */
+
+   .social-icon-twitter {
+         right: 58px;
+         background-color: grey;
+          color: white;
         }
 
-
-.social-icon-twitter {
-  right: 58px;
+    
+.social-icon-twitter:hover {
   background: #1DA1F2;
   color: white;
 }
 
 .social-icon-youtube {
   right: 100px;
+  background-color: grey;
+  color: white;
+}
+
+.social-icon-youtube:hover {
   background: #FF0000;
   color: white;
 }
 
 .social-icon-fb {
-  background: #4267b2;
+  background: grey;
   color: white;
   right: 143px;
 }
 
+.social-icon-fb:hover {
+  background: #4267b2;
+  color: white;
+}
+
 .social-icon-linkedin {
   right: 186px;
+  background:grey;
+  color: white;
+}
+
+.social-icon-linkedin:hover {
   background: #0077B7;
   color: white;
 }
 
 .social-icon-instagram {
   right: 229px;
+  color: white;
+  background-color: grey;
+}
+
+.social-icon-instagram:hover {
   background: #D92A85;
   color: white;
 }
