@@ -2601,5 +2601,8 @@ section {
  .responsive_pad{
    padding-left: 10px;
  }
-
+ .responsive_pad1{
+  padding-left: 10px;
+  padding-top: 15px;
+}
 }
