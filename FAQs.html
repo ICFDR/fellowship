@@ -26,9 +26,10 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+  
+  <script src="https://kit.fontawesome.com/182762e417.js" crossorigin="anonymous"></script>
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <script src="https://kit.fontawesome.com/182762e417.js" crossorigin="anonymous"></script>
 
   <!-- =======================================================
   * Template Name: Company - v2.1.0
@@ -41,84 +42,100 @@
 <body>
   
  
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
+      <a href="index.html"
+        ><img
+          src="./logos/logo.png"
+          class="logo mr-auto img-fluid"
+          style="height: 110px;"
+      /></a>
 
+      <span
+        class="container"
+        style="padding-top: 25px;"
+        id="apply_now_responsive"
+      >
+        <a
+          target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform"
+          class="btn btn-success mb-4"
+          style="color: white; border-radius: 20px;"
+          >Apply Now <i class="fa fa-check" aria-hidden="true"></i
+        ></a>
+      </span>
 
-      <a href="index.html"><img src="./logos/logo.png"
-          class="logo mr-auto img-fluid" style="height: 110px;"></img></a>
-
-<span class="container" style="padding-top:25px;" id="apply_now_responsive">
-       <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform"
-        class="btn btn-success mb-4"
-         style="color: white;
-          border-radius: 20px;
-    ">Apply Now <i class="fa fa-check" aria-hidden="true"></i></a>
-     </span>
-   
-     <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block ml-auto">
         <ul>
-          <li ><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li class="responsive_pad">
             <div class="dropdown" id="drop_down">
               <button
-               type="button"
-               class="btn dropdown-toggle"
-               data-toggle="dropdown"
-             style="
-             border-radius: 20px;
-             margin-top: -5px;
-             font-weight: 600;
-             background: transparent;
-             color: black;
-             border: none;
-             padding: 5px;
-             "
-               >
-              <strong> About iCFDR Fellowship</strong>
+                type="button"
+                class="btn dropdown-toggle"
+                data-toggle="dropdown"
+                style="
+                  border-radius: 20px;
+                  margin-top: -5px;
+                  font-weight: 600;
+                  background: transparent;
+                  color: black;
+                  border: none;
+                  padding: 5px;
+                "
+              >
+                <strong> About iCFDR Fellowship</strong>
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="./why_be_a_fellow.html">About Fellowship</a>
+                <a class="dropdown-item" href="./why_be_a_fellow.html"
+                  >About Fellowship</a
+                >
                 <a class="dropdown-item" href="./join-team.html">Our Team</a>
-           
               </div>
             </div>
           </li>
-        
-   
-          <li><a href="ApplyNow.html">Application Form</a></li>
-          <li><a href="FAQs.html">FAQs</a></li>
-          <li ><a href="about-icdfr.html" class="mb-3">iCFDR</a></li>
-         
-          <li class="responsive_pad"><a href="donate.html" class="btn btn-outline-success" style="border-radius: 20px; margin-top: -10px;" id="donate-nav-item">Donate</a></li>
-          <!-- <li><a href="contact.html">Contact</a></li> -->
-          <li  class="responsive_pad1"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform" class="btn btn-success mb-4" style="color: white; border-radius: 20px; margin-top: -10px;">Apply Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
 
+          <li><a href="ApplyNow.html">Application Form</a></li>
+          <li class="active"><a href="FAQs.html">FAQs</a></li>
+          <li><a href="about-icdfr.html" class="mb-3">iCFDR</a></li>
+          <li class="responsive_pad">
+            <a
+              href="donate.html"
+              class="btn btn-outline-success"
+              style="border-radius: 20px; margin-top: -10px;"
+              id="donate-nav-item"
+              >Donate</a
+            >
+          </li>
+          <li class="responsive_pad1">
+            <a
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform"
+              class="btn btn-success mb-4"
+              style="color: white; border-radius: 20px; margin-top: -10px;"
+              >Apply Now</a>
+          </li>
+
+          <!-- <li><a href="contact.html">Contact</a></li> -->
         </ul>
       </nav>
       <!-- .nav-menu -->
 
       <!-- <div class="header-social-links">
-        <a href="https://twitter.com/ICFDR" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="https://www.youtube.com/ngoicfdr" target="_blank" class="youtube"><i class="icofont-youtube"></i></a>
-        <a href="https://www.facebook.com/ngoICFDR" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="https://www.linkedin.com/company/icfdr" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></i></a>
-      </div> -->
-
+      <a href="https://twitter.com/ICFDR" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+      <a href="https://www.youtube.com/ngoicfdr" target="_blank" class="youtube"><i class="icofont-youtube"></i></a>
+      <a href="https://www.facebook.com/ngoICFDR" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
+      <a href="https://www.linkedin.com/company/icfdr" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+    </div> -->
     </div>
 
-
-  
-   
-      <!-- <div class="col m-auto text-center"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform" class="btn btn-success px-4 py-2" style="color: white; border-radius: 20px;" >Apply Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
- -->
-
-
-  </header><!-- End Header -->
+    <!-- <div class="col m-auto text-center"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjmsFhGFSQAXRxg0xdZw5l-VmDMoYpfLx2IzyuXMkQI_7xFw/viewform" class="btn btn-success px-4 py-2" style="color: white; border-radius: 20px;" >Apply Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+-->
+  </header>
   <!-- End Header -->
   
   
